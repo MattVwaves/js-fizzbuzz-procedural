@@ -2,7 +2,7 @@ const answer = []
 
 for (i = 1; i <= 15; i++)
 {
-    if (i % 15 === 0){
+    if (i % 3 === 0 && i % 5 === 0){
 
         answer.push("FizzBuzz")
     }
